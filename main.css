@@ -1,0 +1,109 @@
+abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:0 0}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:0 0}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+
+html {
+    background: url(http://cubberleyballroom.com/image/background/starback.gif);
+}
+
+body {
+    background: rgba(0, 0, 0, .7);
+    color: white;
+    margin: auto;
+    padding: .5em;
+    max-width: 940px;
+    font-family: "Helvetica-narrow", "Helvetica", "Arial";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.125em;
+}
+
+/* LINKS */
+a {
+    color: rgb(135, 206, 250);
+}
+
+a:visited {
+    color: rgb(0, 255, 255);
+}
+
+a:hover, a:focus {
+    
+}
+
+
+/* FLOW */
+body * + * {
+    margin-top: 1.5rem;
+}
+
+br {
+margin-top : 0; }
+
+li {
+margin-top : 0; }
+
+main {
+margin-top : 0; }
+
+h1, h2, h3 {
+line-height : 1; 
+font-weight : 300; }
+
+
+h1 { font-size : 2.8rem; }
+h2 { font-size : 2.1rem; }
+h3 { font-size : 1.8rem; }
+
+h1, h2 {
+text-align : center; }
+
+h1, h2 {
+margin-bottom : 2.1rem; }
+
+/* HEADER */
+header img {
+    display: block;
+    margin: auto;
+}
+
+/* NAVIGATION */
+[role="navigation"] {
+    text-align: center;
+}
+
+[role="navigation"] li {
+    display: inline-block;
+    list-style: none;
+    border-radius: .2rem;
+    background: blue;
+}
+
+[role="navigation"] a {
+    display: inline-block;
+    padding: 0.0em 1.25em;
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+[role="navigation"] a:hover,
+[role="navigation"] a:focus {
+    outline: none;
+    color: pink;
+}
+
+[role="navigation"] li + li {
+    margin-top: .5rem;
+}
+
+/* MAIN */
+main {
+    display: block;
+}
+
+/* FOOTER */
+[role="contentinfo"] {
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.85em;
+}
